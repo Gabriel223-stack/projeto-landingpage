@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+/* INICIO CABEÇALHO */
+
+header.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+header.menu img.menu-logo-img {
+    height: 72px;
+}
+
+header.menu nav.menu-nav {
+    display: flex;
+    gap: 32px;
+}
+
+nav.menu-nav a.menu-item {
+    font: normal 400 16px 'Sarala', sans-serif;
+    color: #FFF2E7;
+} 
+
+nav.menu-nav a.menu-item:hover {
+    color: rgba(236, 214, 196, 0.53);
+}
+
+/* FIM CABEÇALHO */
+
+/* INICIO CONTEUDO PRINCIPAL */
+
+main.conteudo {
+    margin-top: 42px;
+    border-top: 1px solid #FFF2E7;
+}
+
+main.conteudo section.conteudo-primario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+section.conteudo-primario div.conteudo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+div.conteudo-text h1.conteudo-titulo {
+    font: normal 400 64px 'Righteous', cursive;
+    color: #FFF2E7;
+}
+
+div.conteudo-text p.conteudo-paragrafo {
+    font: normal 18px 'Sarala', sans-serif;
+    color: #ECD6C4;
+}
+
+div.conteudo-text button.conteudo-button {
+    width: 120px;
+    font: 500 18px 'Sarala', sans-serif;
+    background-color: #ECD6C4;
+    padding: 10px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+div.conteudo-text button.conteudo-button:hover {
+    background: rgba(236, 214, 196, 0.53);
+}
+
+div.conteudo-img {
+    height: 430px;
+}
+
+main.conteudo section.conteudo-secundario {
+    border-top: 1px solid #ECD6C4;
+    margin: 60px 0;
+    padding: 50px 10px 10px 10px;
+}
+
+section.conteudo-secundario div.conteudo-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+div.conteudo-texto h3.conteudo-subtitulo {
+    font: 100 24px 'Righteous', cursive;
+    color: #FFF2E7;
+    margin-bottom: 20px;
+}
+
+div.conteudo-texto p.conteudo-instrucao {
+    font: normal lighter 12px 'Sarala', sans-serif;
+    color: #ECD6C4;
+}
+
+/* FIM CONTEUDO PRINCIPAL*/
+
+/* INICIO RODAPE */
+
+footer.rodape {
+    border-top: 1px solid #FFF2E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+footer.rodape img.rodape-img {
+    height: 45px;
+    margin: 30px 0px 50px 0px;
+    padding: 5px 0px;
+}
+
+/* FIM RODAPE */
